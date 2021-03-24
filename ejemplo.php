@@ -1,38 +1,43 @@
 <?php
-class Ejemplo
+class Example
 {
-    // Atributo
-    var $atributo;
+    // Attribute
+    var $attribute;
 
     // Constructor
-    function Ejemplo()
+    function Example()
     {
-        // Nada por aquí
+        // Do nothing
     }
 
-    // Método
-    function MuestraNombre($nombre)
+    // Method
+    function showName($name)
     {
-        echo "El nombre es " . $nombre . "\n";
+        echo "The name is " . $name . "\n";
     }
 
-    // Método para definir atributo
-    function DaValor($valor)
+    // Method to define attribute value
+    function setAttributeValue($value)
     {
-        $this->atributo = $valor;
+        $this->attribute = $value;
+    }
+
+    function setAttribute($value)
+    {
+        $attribute = $value;
     }
 
 }
- 
-// Inicie la clase
-echo "Iniciando la clase\n";
-$obj = new Ejemplo();
 
-// Invoque al método
-$obj->MuestraNombre('Leonardo Caballero');
+// Instantiate the class
+echo "Instantiate the class\n";
+$obj = new Example(0);
 
-// Invoque al método para definir atributo
-$obj->DaValor(4);
-echo "El valor del atributo es " . $obj->atributo . "\n";
+// Invoke the method
+$obj->showName('Leonardo Caballero');
+
+// Invoke the method to define attribute
+$obj->setAttributeValue(4);
+echo "The value of the attribute is " . $obj->attribute . "\n";
 ?>
 
