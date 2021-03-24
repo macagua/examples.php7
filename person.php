@@ -7,6 +7,7 @@
 class Person
 {
     // Class attributes
+    // public, protected <-> private
     public $firstName;
     public $lastName;
     private $dateOfBirth;
