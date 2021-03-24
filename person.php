@@ -23,6 +23,15 @@ echo fullName('Leonardo', 'Caballero');
 echo age('1980-12-03') . "\n";
 
 echo fullName('Ana', 'Poleo');
-echo age('1982-04-12');
+echo age('1982-04-12') . "\n";
+
+$grandFather = array(
+    'firstName' => 'José Nicanor De Las Mercedes',
+    'lastName' => 'Ochoa Pinto Morillo',
+    'dateOfBirth' => '1868-02-19',
+);
+
+echo fullName($grandFather['firstName'], $grandFather['lastName']);
+echo age($grandFather['dateOfBirth']);
 ?>
 
