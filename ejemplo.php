@@ -2,28 +2,29 @@
 // Abstract class
 class Example
 {
-    // Attribute
+    // Class attributes
     public $attribute;
     private $love;
 
-    // Constructor
+    // Class constructor method
     function Example()
     {
         $this->love = 'Hidden';
     }
 
-    // Method
+    // Simple method with params
     function showName($name)
     {
         echo "The name is " . $name . "\n";
     }
 
-    // Method to define attribute value
+    // Setter method for the Person attribute
     function setAttribute($value)
     {
         $this->attribute = $value;
     }
 
+    // Getter method for the Person Love attribute
     function getLove()
     {
         return $this->love;
@@ -34,11 +35,13 @@ class Example
 // Object inheritance class
 class Example2 extends Example
 {
+    // Constructor class method
     function Example2()
     {
         // Do nothing
     }
 
+    // Getter method for the Person attribute
     function getAttribute()
     {
         return $this->attribute;
