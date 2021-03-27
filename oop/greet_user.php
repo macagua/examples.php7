@@ -1,37 +1,8 @@
 <?php
 
-/**
- * Abstract class
- * Person Class
- */
-class Person
-{
-    // Basic function for Greeting user
-    public function greet()
-    {
-        return "Hola $this->name";
-    }
-}
-
-/**
- * User Class
- */
-class User
-{
-    // Class attributes
-    public $type;
-}
-
-
-/**
- * Object inheritance class
- * Admin Class
- */
-class Admin extends Person
-{
-    // Class attributes
-    public $name = "Administrador";
-}
+// Include PHP Class
+include 'classes/Admin.php';
+include 'classes/User.php';
 
 // Instantiate the Abstract class
 $user = new User;
