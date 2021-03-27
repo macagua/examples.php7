@@ -10,6 +10,6 @@ include 'classes/Person.php';
 class Admin extends Person
 {
     // Class attributes
-    public $name = "Administrator";
+    public $nickName = "Macagua";
 }
 

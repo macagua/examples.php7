@@ -13,6 +13,7 @@ class Employee extends Person
     private $designation;
     private $salary;
 
+    /*
     // Getter method for the Employee age
     public function getAge()
     {
@@ -24,6 +25,7 @@ class Employee extends Person
     {
         $this->age = $age;
     }
+    */
 
     // Getter method for the Employee designation
     public function getDesignation()
@@ -50,9 +52,9 @@ class Employee extends Person
     }
 
     // Getter method for the Employee name and age
-    public function getNameAndAge()
+    public function getNicknameAndAge()
     {
-        return $this->callToProtectedNameAndAge();
+        return $this->callToProtectedNicknameAndAge();
     }
 }
 
