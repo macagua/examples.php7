@@ -1,52 +1,7 @@
 <?php
-// Abstract class
-class Example
-{
-    // Class attributes
-    public $attribute;
-    private $love;
 
-    // Class constructor method
-    function Example()
-    {
-        $this->love = 'Hidden';
-    }
-
-    // Simple method with params
-    function showName($name)
-    {
-        echo "The name is " . $name . "\n";
-    }
-
-    // Setter method for the Person attribute
-    function setAttribute($value)
-    {
-        $this->attribute = $value;
-    }
-
-    // Getter method for the Person Love attribute
-    function getLove()
-    {
-        return $this->love;
-    }
-
-}
-
-// Object inheritance class
-class Example2 extends Example
-{
-    // Constructor class method
-    function Example2()
-    {
-        // Do nothing
-    }
-
-    // Getter method for the Person attribute
-    function getAttribute()
-    {
-        return $this->attribute;
-    }
-}
+// Include PHP Class
+include 'classes/Example2.php';
 
 // Instantiate the Abstract class
 echo "Instantiate the class\n";
