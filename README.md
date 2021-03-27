@@ -10,4 +10,5 @@
 - [Encapsulamiento, getters y setters en PHP](https://styde.net/encapsulamiento-y-uso-de-getters-y-setters-en-php/).
 - [PHP orientado a objetos con clases y objetos](https://code.tutsplus.com/es/tutorials/basics-of-object-oriented-programming-in-php--cms-31910).
 - [Introducción - Curso de Programación Orientada a Objetos en PHP](https://platzi.com/clases/2034-php-poo/32124-introduccion/).
+- [Inclusión de archivos - Curso de Programación Orientada a Objetos en PHP](https://platzi.com/clases/2034-php-poo/32128-inclusion-de-archivos/).
 
