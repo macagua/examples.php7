@@ -1,6 +1,6 @@
 <?php
 
-// Include PHP Class
+// Include Message Class
 include 'classes/Message.php';
 
 /**

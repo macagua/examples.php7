@@ -13,20 +13,6 @@ class Employee extends Person
     private $designation;
     private $salary;
 
-    /*
-    // Getter method for the Employee age
-    public function getAge()
-    {
-        return $this->age;
-    }
-
-    // Setter method for the Employee age
-    public function setAge($age)
-    {
-        $this->age = $age;
-    }
-    */
-
     // Getter method for the Employee designation
     public function getDesignation()
     {

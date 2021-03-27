@@ -3,7 +3,6 @@
 /**
  * Phone Class
  */
-
 class Phone
 {
     // Class attributes
