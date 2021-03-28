@@ -33,6 +33,5 @@ class Example
     {
         return $this->love;
     }
-
 }
 

@@ -1,7 +1,7 @@
 <?php
 
 // Include Message Class
-include 'classes/Message.php';
+include __DIR__ . '/Message.php';
 
 /**
  * Object inheritance class
@@ -11,7 +11,7 @@ class RedMessage extends Message
 {
     public static function formatMessage($message)
     {
-        return printf("\e[31m" . $message ."\e[0m\n");
+        return printf("\e[31m" . $message . "\e[0m\n");
     }
 }
 

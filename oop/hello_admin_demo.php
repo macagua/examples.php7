@@ -1,8 +1,8 @@
 <?php
 
-// Include PHP Class
-include 'classes/Admin.php';
-include 'classes/User.php';
+// Include PHP Classes
+include __DIR__ . '/classes/Admin.php';
+include __DIR__ . '/classes/User.php';
 
 // Instantiate the Abstract class
 $user = new User;

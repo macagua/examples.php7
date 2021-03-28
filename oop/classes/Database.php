@@ -1,6 +1,6 @@
 <?php
 
-// Include Store Classes
+// Include Store Interface
 include __DIR__ . '/../interfaces/Store.php';
 
 /**
@@ -8,10 +8,10 @@ include __DIR__ . '/../interfaces/Store.php';
  */
 class Database implements Store
 {
-    // Implements Get function
+    // Implements get method
     public function get()
     {
-        return "Implements Get function";
+        return "Implements get method";
     }
 }
 

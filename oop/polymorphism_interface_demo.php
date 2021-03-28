@@ -1,8 +1,11 @@
 <?php
 
-// Include PHP Classes
+// Include Search Interface
 include __DIR__ . '/interfaces/Search.php';
 
+/**
+ * User Class
+ */
 class User implements Search
 {
     public function all()
@@ -11,6 +14,9 @@ class User implements Search
     }
 }
 
+/**
+ * Post Class
+ */
 class Post implements Search
 {
     public function all()
@@ -23,7 +29,7 @@ class Post implements Search
 $user = new User();
 echo $user->all() . "\n";
 
-// Instantiate the User class
+// Instantiate the Post class
 $post = new Post();
 echo $post->all() . "\n";
 

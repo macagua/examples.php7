@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Search Class
+ * Search Interface
  */
 interface Search
 {
-    // Declarate all function
+    // Declarate all method
     public function all();
 }
 

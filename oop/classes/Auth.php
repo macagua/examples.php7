@@ -9,25 +9,25 @@ class Auth
     protected $email;
     protected $password;
 
-    // Implements login function
+    // Implements login method
     public function login()
     {
-        return "Implements login function";
+        return "Implements login method";
     }
 
-    // Implements validate function
+    // Implements validate method
     public function validate()
     {
         // ...
     }
 
-    // Implements failed function
+    // Implements failed method
     public function failed()
     {
         // ...
     }
 
-    // Implements response function
+    // Implements response method
     public function response()
     {
         // ...

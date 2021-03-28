@@ -35,6 +35,5 @@ class Car
     {
         return "Model " . $this->model . ", Color " . $this->color . ", Doors " . $this->doors . " and Brand " . $this->brand;
     }
-
 }
 

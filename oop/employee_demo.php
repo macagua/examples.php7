@@ -1,7 +1,7 @@
 <?php
 
 // Include Employee Class
-include_once 'classes/Employee.php';
+include_once __DIR__ . '/classes/Employee.php';
 
 // Instantiate Object inheritance class
 $employee = new Employee();

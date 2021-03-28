@@ -1,7 +1,7 @@
 <?php
 
-// Include PHP Class
-include_once 'classes/Person.php';
+// Include Person Class
+include_once __DIR__ . '/Person.php';
 
 /**
  * Object inheritance class

@@ -8,10 +8,10 @@ include_once __DIR__ . '/../abstract/Base.php';
  */
 class Cached extends Base
 {
-    // Implements store abstract function
+    // Implements store abstract method
     public function store()
     {
-        return "Implements store abstract function";
+        return "Implements store abstract method";
     }
 }
 

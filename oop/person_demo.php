@@ -1,9 +1,9 @@
 <?php
 
 // Include Person Class
-include_once 'classes/Person.php';
+include_once __DIR__ . '/classes/Person.php';
 
-// Instantiate the Abstract class
+// Instantiate the Person class
 $ana = new Person();
 // Set the Person First Name attribute value
 $ana->firstName = 'Ana';
@@ -21,7 +21,7 @@ echo "Date of birth: " . $ana->getDateOfBirth() . ".\n";
 // Get the Person age
 echo "Age: " . $ana->getAge() . ".\n\n";
 
-// Instantiate the Abstract class
+// Instantiate the Person class
 $leo = new Person();
 // Set the Person First Name attribute value
 $leo->firstName = 'Leonardo';

@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Store Class
+ * Store Interface
  */
 interface Store
 {
-    // Declarate Get function
+    // Declarate get method
     public function get();
 }
 

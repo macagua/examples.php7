@@ -1,7 +1,7 @@
 <?php
 
-// Include PHP Class
-include 'classes/Car.php';
+// Include Car Class
+include __DIR__ . '/classes/Car.php';
 
 $tesla = new Car('Tesla', 'S', 'Black', 4);
 // Show show the attributes values

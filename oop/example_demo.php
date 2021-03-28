@@ -1,7 +1,7 @@
 <?php
 
-// Include PHP Class
-include 'classes/Example2.php';
+// Include Example2 Class
+include __DIR__ . '/classes/Example2.php';
 
 // Instantiate the Abstract class
 echo "Instantiate the class\n";
