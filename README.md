@@ -16,4 +16,5 @@
 - [Polimorfismo - Curso de Programación Orientada a Objetos en PHP](https://platzi.com/clases/2034-php-poo/32133-polimorfismo/).
 - [Polimorfismo: Interfaz - Curso de Programación Orientada a Objetos en PHP](https://platzi.com/clases/2034-php-poo/32134-polimorfismo-interfaz/).
 - [Interfaces - Curso de Programación Orientada a Objetos en PHP](https://platzi.com/clases/2034-php-poo/32136-interfaces/).
+- [Iniciando nuestro proyecto: PHPUnit y clases heredadas - Curso de Programación Orientada a Objetos en PHP](https://platzi.com/clases/2034-php-poo/32137-iniciando-nuestro-proyecto-phpunit-y-clases-hereda/).
 
