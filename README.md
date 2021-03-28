@@ -12,4 +12,5 @@
 - [Introducción - Curso de Programación Orientada a Objetos en PHP](https://platzi.com/clases/2034-php-poo/32124-introduccion/).
 - [Inclusión de archivos - Curso de Programación Orientada a Objetos en PHP](https://platzi.com/clases/2034-php-poo/32128-inclusion-de-archivos/).
 - [Introducción a clases y objetos - Curso de Programación Orientada a Objetos en PHP](https://platzi.com/clases/2034-php-poo/32129-introduccion-a-clases-y-objetos/).
+- [Abstracción - Curso de Programación Orientada a Objetos en PHP](https://platzi.com/clases/2034-php-poo/32130-abstraccion/).
 
