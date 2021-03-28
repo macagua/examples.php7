@@ -37,37 +37,45 @@ class Post
     }
     */
 
+    // Setter method for the Post title
     public function setTitle($title)
     {
         $this->title = $title;
     }
 
+    // Getter method for the Post title
     public function getTitle()
     {
         return $this->title;
     }
 
+    // Setter method for the Post content
     public function setContent($content)
     {
         $this->content = $content;
     }
 
+    // Getter method for the Post content
     public function getContent()
     {
         return $this->content;
     }
 
+    // Setter method for the Post category
     public function setCategory(Category $category)
     {
         array_push($this->category, $category);
     }
 
+    // Getter method for the Post category
     public function getCategory()
     {
         return $this->category;
     }
 
-    public function getPost() : string {
+    // Getter method for the Post detail
+    public function getPost() : string
+    {
         return "Title: {$this->title}.\n Content:: {$this->content}.\n Category: {$this->category->getName()}.\n";
     }
 

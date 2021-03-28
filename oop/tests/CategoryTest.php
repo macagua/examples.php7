@@ -17,3 +17,4 @@ class CategoryTest extends TestCase
         $this->assertEquals($categoryPlone->getName(), 'Plone');
     }
 }
+

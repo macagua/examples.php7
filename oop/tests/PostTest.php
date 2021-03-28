@@ -45,3 +45,4 @@ class PostTest extends TestCase
         $this->assertInstanceOf(Category::class, $post->getCategory()[0]);
     }
 }
+

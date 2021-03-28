@@ -52,3 +52,4 @@ class UserTest extends TestCase
         $this->assertEquals($this->user->getPassword(), 'PHPIsDead!');
     }
 }
+

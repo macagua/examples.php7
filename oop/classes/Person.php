@@ -23,22 +23,16 @@ class Person
     }
     */
 
-    // Getter method for the Person first name
-    public function getFirstName()
-    {
-        return $this->firstName;
-    }
-
     // Setter method for the Person first name
     public function setFirstName($firstName)
     {
         $this->firstName = $firstName;
     }
 
-    // Getter method for the Person last name
-    public function getLastName()
+    // Getter method for the Person first name
+    public function getFirstName()
     {
-        return $this->lastName;
+        return $this->firstName;
     }
 
     // Setter method for the Person last name
@@ -47,16 +41,22 @@ class Person
         $this->lastName = $lastName;
     }
 
-    // Getter method for the Person nickname
-    public function getNickname()
+    // Getter method for the Person last name
+    public function getLastName()
     {
-        return $this->nickName;
+        return $this->lastName;
     }
 
     // Setter method for the Person nickname
     public function setNickname($nickName)
     {
         $this->nickName = $nickName;
+    }
+
+    // Getter method for the Person nickname
+    public function getNickname()
+    {
+        return $this->nickName;
     }
 
     // Setter method for the Person date of birth
