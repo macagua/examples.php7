@@ -4,7 +4,7 @@
 include_once __DIR__ . '/Message.php';
 
 /**
- * Object inheritance class
+ * Child class from the Parent class
  * Merry Christmas Message Class
  */
 class ChristmasMessage extends Message

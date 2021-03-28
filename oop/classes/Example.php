@@ -1,7 +1,6 @@
 <?php
 
 /**
- * Abstract class
  * Phone Class
  */
 class Example

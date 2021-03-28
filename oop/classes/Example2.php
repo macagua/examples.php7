@@ -4,7 +4,7 @@
 include __DIR__ . '/Example.php';
 
 /**
- * Object inheritance class
+ * Child class from the Parent class
  * Example2 Class
  */
 class Example2 extends Example

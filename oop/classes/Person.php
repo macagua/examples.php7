@@ -1,7 +1,6 @@
 <?php
 
 /**
- * Abstract class
  * Person Class
  */
 class Person

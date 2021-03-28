@@ -1,7 +1,6 @@
 <?php
 
 /**
- * Abstract class
  * Message Class
  */
 class Message

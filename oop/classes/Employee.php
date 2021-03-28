@@ -4,7 +4,7 @@
 include_once __DIR__ . '/Person.php';
 
 /**
- * Object inheritance class
+ * Child class from the Parent class
  * Employee Class
  */
 class Employee extends Person

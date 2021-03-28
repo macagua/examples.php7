@@ -4,7 +4,7 @@
 include __DIR__ . '/Person.php';
 
 /**
- * Object inheritance class
+ * Child class from the Parent class
  * Admin Class
  */
 class Admin extends Person

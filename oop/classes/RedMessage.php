@@ -4,7 +4,7 @@
 include __DIR__ . '/Message.php';
 
 /**
- * Object inheritance class
+ * Child class from the Parent class
  * Red Message Class
  */
 class RedMessage extends Message
