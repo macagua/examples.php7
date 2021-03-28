@@ -19,7 +19,8 @@ class Post
         $this->content      = $content;
         $this->setCategory($category);
     }
-/*
+
+    /*
     public function addComment(Comment $comment)
     {
         $this->comments[] = $comment;
@@ -34,7 +35,7 @@ class Post
     {
         return $this->comments;
     }
-*/
+    */
 
     public function setTitle($title)
     {

@@ -24,7 +24,7 @@ class User
 
     public function setEmail($email)
     {
-        $this->email = $email;
+        $this->email = trim($email);
     }
 
     public function getEmail()
@@ -34,7 +34,12 @@ class User
 
     public function setPassword($password)
     {
-        $this->password = $password;
+        $this->password = trim($password);
+    }
+
+    public function getPassword()
+    {
+        return $this->password;
     }
 }
 

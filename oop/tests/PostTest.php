@@ -6,9 +6,12 @@ use App\Category;
 //use App\Comment;
 use App\Post;
 
+/**
+ * PostTest Class
+ */
 class PostTest extends TestCase
 {
-/*
+    /*
     public function test_add_comment_to_post()
     {
         // Instantiate the Post class
@@ -23,7 +26,8 @@ class PostTest extends TestCase
         // Test if get all Comments
         $this->assertInstanceOf(Comment::class, $post->getComments()[0]);
     }
-*/
+    */
+
     public function test_posting()
     {
         // Instantiate the Author class
@@ -36,10 +40,8 @@ class PostTest extends TestCase
         $author->addPost($post);
 
         // Test if the Author count posts Equals 1
-        // Aserción o afirmación para comprobar que tenemos 1 post agregado
         $this->assertEquals(1, $author->countPosts());
-        // Aserción o afirmación para comprobar que la categoría es una instancia de la clase Category
+        // Test if the Category is a Category Class Instance
         $this->assertInstanceOf(Category::class, $post->getCategory()[0]);
-
     }
 }

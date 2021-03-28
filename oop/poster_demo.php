@@ -10,7 +10,7 @@ use App\Category;
 // Instantiate the Post class
 $author = new Author();
 $author->setName("Leonardo Caballero");
-$author->setEmail("leonardo@plone.org");
+$author->setEmail("leonardoc@plone.org");
 $author->setPassword("PHPIsDead!");
 
 // Instantiate the Category class
